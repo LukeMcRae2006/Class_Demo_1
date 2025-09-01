@@ -124,8 +124,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7434742533839861469, guid: 5922922c93542224e8a5b7114fafa393, type: 3}
   m_PrefabInstance: {fileID: 1132273732334073830}
   m_PrefabAsset: {fileID: 0}
---- !u!233 &28010820
-HingeJoint2D:
+--- !u!254 &28010820
+RelativeJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,18 +138,12 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.43, y: -1.21}
-  m_UseConnectedAnchor: 1
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
+  m_MaxForce: 10000
+  m_MaxTorque: 10000
+  m_CorrectionScale: 0.3
+  m_AutoConfigureOffset: 1
+  m_LinearOffset: {x: -0.073163986, y: 1.282048}
+  m_AngularOffset: 22.829998
 --- !u!1 &118120271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,8 +3559,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7032547417982258310, guid: 5922922c93542224e8a5b7114fafa393, type: 3}
   m_PrefabInstance: {fileID: 1132273732334073830}
   m_PrefabAsset: {fileID: 0}
---- !u!233 &2028271279
-HingeJoint2D:
+--- !u!254 &2028271279
+RelativeJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3579,18 +3573,12 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.496, y: -1.21}
-  m_UseConnectedAnchor: 1
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
+  m_MaxForce: 10000
+  m_MaxTorque: 10000
+  m_CorrectionScale: 0.3
+  m_AutoConfigureOffset: 1
+  m_LinearOffset: {x: 0.012334406, y: 1.3076558}
+  m_AngularOffset: -22.829998
 --- !u!1 &2070553019
 GameObject:
   m_ObjectHideFlags: 0
